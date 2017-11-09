@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<title>Roster</title>
+	<link rel="stylesheet" href="rosterplayer.css" >
 </head>
 <body>
-	<nav>
-		<a href="statisticsplayer.html"><h3>Statistics</h3></a>
-		<a href="scheduleplayer.html"><h3>Schedule</h3></a>
-		<a href="rosterplayer.html"><h3>Roster</h3></a>
-	</nav>
-	<form>
-		<label for="searchplayer">Search</label>
-		<input type="text" name="searchplayer" id="searchplayer">
-		<input type="submit" name="submitplayersearch" value="Search Player">
-	</form>
+	<nav class="nav-head">
+      <ul>
+        <li>
+          <a href="statisticsplayer.html" class="a-stats">STATS</a>
+        </li>
+        <li>
+          <a href="scheduleplayer.html" class="a-schedule">SCHEDULE</a>
+        </li>
+        <li>
+          <a href="rosterplayer.html" class ="a-roster active">ROSTER</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="searchdiv">
+		<form>
+			<input type="text" name="searchplayer" id="searchplayer">
+			<input type="submit" name="submitplayersearch" value="Search" id="searchbutton">
+		</form>
+	</div>
 	<div>
 		<h3><a href="profileplayer.html">Raymond Arevalo</a></h3>
 	</div>
