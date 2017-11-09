@@ -6,7 +6,7 @@ body {
 }
 
 input[type=text], input[type=password] {
-    width: 60%;
+    width: 65%;
     padding: 12px 12px;
     margin: 8px 0;
     display: inline-block;
@@ -74,8 +74,8 @@ input[type="password"]::-webkit-input-placeholder {
    		font-size: 1.5em
 	}
 	#homeimage {
-		height: 5em;
-		width: 5em;
+		height: 7em;
+		width: 7em;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -99,7 +99,7 @@ input[type="password"]::-webkit-input-placeholder {
 
 	#tbl {
 		display: table;
-		width: 35%;
+		width: 55%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -144,7 +144,7 @@ body{
 .nav-head{
 	border:1px solid #FFC80A;
 	border-radius:1.2em;
-	width:40%;
+	width:120%;
 	margin:30px auto;
 }
 
@@ -171,6 +171,44 @@ body{
 }
 
 .nav-head ul li .active{
+	background-color:#FFC80A;
+	border-radius:1.2em;
+	color:#000;
+}
+
+
+/* ----------------------------- */
+
+.nav-head2{
+	border:1px solid #FFC80A;
+	border-radius:1.2em;
+	width:40%;
+	margin:30px auto;
+}
+
+.nav-head2 ul{
+	margin:0;
+	padding:0;
+	display:table;
+	width:100%; 
+}
+
+.nav-head2 ul li{
+	display:table-cell;
+}
+
+.nav-head2 ul li a{
+	padding:.7em 0 .7em 0;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	color:#9FA3A7;
+	font-size:.7em;
+	font-family:"Montserrat",sans-serif;
+	font-weight:700;
+}
+
+.nav-head2 ul li .active{
 	background-color:#FFC80A;
 	border-radius:1.2em;
 	color:#000;
