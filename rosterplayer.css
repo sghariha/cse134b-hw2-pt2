@@ -9,7 +9,7 @@ body{
 .nav-head{
   border:1px solid #FFC80A;
   border-radius:1.2em;
-  width:70%;
+  width:75%;
   margin:30px auto
 }
 
@@ -41,29 +41,47 @@ body{
   color:#000
 }
 
-#searchdiv {
+hr {
+  margin: 20px 0;
   display: block;
-  text-align: center;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #FFC80A;
+  margin: 1em 0;
+  padding: 0;
 }
 
-#searchplayer {
-  border-radius: 30px; 
-    -moz-border-radius: 30px; 
-    -webkit-border-radius: 30px;
-    border: 2px solid #B5B8BB;
-    margin-bottom: 2em;
-    width: 10em;
-    height: 2em
+.roster-content {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 150px;
 }
 
-#searchbutton {
-    width: 7em;
-    height: 2em;
-    border-radius: 34px; 
-    -moz-border-radius: 34px; 
-    -webkit-border-radius: 34px;
-    border: 2px solid #FFC80A;
-    background-color: #FFC80A;
-    font-size: 0.7em;
-    text-transform: uppercase;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.player {
+  font-family: $main-font;
+  display: table;
+  width: 100%;
+}
+.left {
+  padding: 0 1em 0 0;
+  text-align: left;
+  display: table-cell;
+  width: 10%;
+}
+.right {
+  display: table-cell;
+}
+
+.rosterrow {
+  margin-right: 1em;
+  display: inline;
+}
+
+.rosterbottomrow {
+  margin-top: 1em
 }
