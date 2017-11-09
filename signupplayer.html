@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Up as Player</title>
+</head>
+<body>
+	<nav>
+		<a href="signupplayer.html"><h3>Player</h3></a>
+		<a href="signupadmin.html"><h3>Admin</h3></a>
+	</nav>
+	<form>
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name"><br>
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email"><br>
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password"><br>
+		<label for="confirmpassword">Confirm Password</label>
+		<input type="password" name="confirmpassword" id="confirmpassword"><br>
+		<label for="playerteam">Team</label>
+		<input list="playerteams" name="teams" id="playerteam">
+		  <datalist id="playerteams">
+		    <option value="University High School">
+		    <option value="Scripps Ranch High School">
+		    <option value="Rancho Bernardo High School">
+		    <option value="Poway High School">
+		    <option value="Mount Carmel High School">
+		  </datalist><br>
+  		<input type="submit" name="jointeam" value="Join Team">
+	</form>
+</body>
+</html>
