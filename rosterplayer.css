@@ -85,3 +85,19 @@ a {
 .rosterbottomrow {
   margin-top: 1em
 }
+
+#modplayer {
+  width: 10em;
+  height: 2em;
+  border-radius: 34px; 
+  -moz-border-radius: 34px; 
+  -webkit-border-radius: 34px;
+  border: 2px solid #FFC80A;
+  background-color: #FFC80A;
+  font-size: .7em;
+  text-transform: uppercase;
+}
+
+.management {
+  float: right
+}
