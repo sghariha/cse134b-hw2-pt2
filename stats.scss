@@ -5,40 +5,134 @@ $button-font: 'Montserrat', sans-serif;
 $main-font: 'Raleway', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,700');
 
+hr {
+  margin: 20px 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $p-color;
+  margin: 1em 0;
+  padding: 0;
+}
+
 body {
   width: 100% !important;
   background-color: white;
   overflow-x: hidden;
 }
+
+
+
 .nav-head {
 
   border: 1px solid $p-color;
   border-radius: 1.2em;
-  width:70%;
+  width:75%;
   margin: 30px auto;
- ul {
-   margin:0;
-   padding: 0;
-   display: table;
-   width: 100%;
+  ul {
+    margin:0;
+    padding: 0;
+    display: table;
+    width: 100%;
 
-   li {
-     display: table-cell;
-     a {
-       padding: .7em 0 .7em 0;
-       display: block;
-       text-align: center;
-       text-decoration: none;
-       color: $n-color;
-       font-size: .7em;
-       font-family: $button-font;
-       font-weight: 700;
-     }
-     .active {
-       background-color: $p-color;
-       border-radius: 1.2em;
-       color: $a-color;
-     }
-   }
- }
+    li {
+      display: table-cell;
+      a {
+        padding: .7em 0 .7em 0;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: $n-color;
+        font-size: .7em;
+        font-family: $button-font;
+        font-weight: 700;
+      }
+      .active {
+        background-color: $p-color;
+        border-radius: 1.2em;
+        color: $a-color;
+      }
+    }
+  }
+}
+
+.stats-content {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+
+  .season {
+    margin-top: 50px;
+    select {
+      padding: .5em 0 .5em 0;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: .1px solid rgba(0, 0, 0, .1);
+      background: url("down.svg") 96% / 15% no-repeat #FFF;
+      font-family: $button-font;
+      background-color: white;
+      background-size: 1.3em;
+      color: $n-color;
+      font-size: .7em;
+      width: 40%;
+
+      option {
+        background-color: white;
+
+      }
+    }
+  }
+
+  h3 {
+    margin-top: 50px;
+    font-family: $button-font;
+    font-weight: 700;
+  }
+
+  .game {
+    font-family: $main-font;
+    display: table;
+    width: 100%;
+    .left {
+      padding: 0 1em 0 0;
+      text-align: left;
+      display: table-cell;
+      width: 10%;
+      h5 {
+        margin: 0 0;
+      }
+      .ha {
+        color: $p-color;
+        margin: 5px 0;
+      }
+    }
+    .right {
+      display: table-cell;
+      h3 {
+        margin: 0 0;
+      }
+
+      h5:nth-of-type(1){
+        margin: 0 0;
+        color: $n-color;
+        font-weight: 400;
+      }
+      h5:nth-of-type(2) {
+        margin: 5px 0;
+      }
+      h4 {
+        margin: 5px 0;
+      }
+      button {
+        background-color: $p-color;
+        appearance: none;
+        border: 0;
+        font-size: 0.83em;
+        border-radius: 1.2em;
+        font-family: $button-font;
+        font-weight: 700;
+      }
+    }
+  }
 }
