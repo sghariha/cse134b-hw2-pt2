@@ -1,0 +1,44 @@
+$n-color: #9FA3A7;
+$a-color: #000000;
+$p-color: #FFC80A;
+$button-font: 'Montserrat', sans-serif;
+$main-font: 'Raleway', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,700');
+
+body {
+  width: 100% !important;
+  background-color: white;
+  overflow-x: hidden;
+}
+.nav-head {
+
+  border: 1px solid $p-color;
+  border-radius: 1.2em;
+  width:70%;
+  margin: 30px auto;
+ ul {
+   margin:0;
+   padding: 0;
+   display: table;
+   width: 100%;
+
+   li {
+     display: table-cell;
+     a {
+       padding: .7em 0 .7em 0;
+       display: block;
+       text-align: center;
+       text-decoration: none;
+       color: $n-color;
+       font-size: .7em;
+       font-family: $button-font;
+       font-weight: 700;
+     }
+     .active {
+       background-color: $p-color;
+       border-radius: 1.2em;
+       color: $a-color;
+     }
+   }
+ }
+}
