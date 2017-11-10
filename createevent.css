@@ -49,14 +49,14 @@ body{
   color:#000
 }
 
-.schedule-content {
+.event-content {
   width: 50%;
   margin: 0 auto;
   margin-bottom: 150px;
 }
 
 input[type=text], input[type=time], input[type=date] {
-    width: 60%;
+    width: 100%;
     padding: 12px 12px;
     margin: 8px 0;
     display: inline-block;
@@ -102,25 +102,19 @@ input::-moz-placeholder {
 
 }
 
-
 #loginform {
   display: block;
   text-align: center
+}
+
+.formlabel {
+  text-align: left
 }
 
 @media only screen and (min-width: 700px) {
   ::-webkit-input-placeholder {
       text-align: center;
       font-size: 1.5em
-  }
-  #homeimage {
-    height: 5em;
-    width: 5em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5em;
-    margin-bottom: 5em
   }
 
   .accountform {
