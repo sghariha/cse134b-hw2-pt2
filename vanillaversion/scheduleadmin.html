@@ -4,24 +4,31 @@
 	<meta charset="utf-8">
 	<title>Schedule</title>
 	<link rel="stylesheet" href="schedule.css" >
+	<link rel="stylesheet" href="roster.css" >
+
 </head>
 <body>
 	<nav class="nav-head">
       <ul>
         <li>
-          <a href="stats.html" class="a-stats">STATS</a>
+          <a href="stats-coach.html" class="a-stats">STATS</a>
         </li>
         <li>
-          <a href="scheduleplayer.html" class="a-schedule active">SCHEDULE</a>
+          <a href="scheduleadmin.html" class="a-schedule active">SCHEDULE</a>
         </li>
         <li>
-          <a href="rosterplayer.html" class ="a-schedule">ROSTER</a>
+          <a href="rosteradmin.html" class ="a-schedule">ROSTER</a>
         </li>
       </ul>
     </nav>
     <section class="schedule-content">
     <div class="management">
-    <input type="submit" id="modschedule" value="Add Event">
+    	<input id="modplayer" type="button" value="Add Event" onclick="return btntest_onclick()"/>
+        		<script language="javascript" type="text/javascript">
+        			function btntest_onclick() {       
+            			window.location.href = "creategame.html";
+        			}
+        		</script>
 	</div>
     <div class="filter">
     	<form>
@@ -48,8 +55,13 @@
 			</div>
 		</div>
 		<div class="management">
-		<input type="submit" id="modschedule" value="Edit">
-		<input type="submit" id="modschedule" value="Remove">
+			<input id="modplayer" type="button" value="Edit" onclick="return btntest_onclick()"/>
+        		<script language="javascript" type="text/javascript">
+        			function btntest_onclick() {       
+            			window.location.href = "creategame.html";
+        			}
+        		</script>
+			<input type="submit" id="modplayer" value="Remove">
 		</div>
 	</div><hr />
 	<div class="event">
@@ -66,8 +78,13 @@
 			</div>
 		</div>
 		<div class="management">
-		<input type="submit" id="modschedule" value="Edit">
-		<input type="submit" id="modschedule" value="Remove">
+			<input id="modplayer" type="button" value="Edit" onclick="return btntest_onclick()"/>
+        		<script language="javascript" type="text/javascript">
+        			function btntest_onclick() {       
+            			window.location.href = "creategame.html";
+        			}
+        		</script>
+			<input type="submit" id="modplayer" value="Remove">
 		</div>
 	</div><hr />
 	<div class="event">
@@ -84,8 +101,13 @@
 			</div>
 		</div>
 		<div class="management">
-		<input type="submit" id="modschedule" value="Edit">
-		<input type="submit" id="modschedule" value="Remove">
+			<input id="modplayer" type="button" value="Edit" onclick="return btntest_onclick()"/>
+        		<script language="javascript" type="text/javascript">
+        			function btntest_onclick() {       
+            			window.location.href = "creategame.html";
+        			}
+        		</script>
+			<input type="submit" id="modplayer" value="Remove">
 		</div>
 	</div><hr />
 	<div class="event">
@@ -102,8 +124,13 @@
 			</div>
 		</div>
 		<div class="management">
-		<input type="submit" id="modschedule" value="Edit">
-		<input type="submit" id="modschedule" value="Remove">
+			<input id="modplayer" type="button" value="Edit" onclick="return btntest_onclick()"/>
+        		<script language="javascript" type="text/javascript">
+        			function btntest_onclick() {       
+            			window.location.href = "creategame.html";
+        			}
+        		</script>
+			<input type="submit" id="modplayer" value="Remove">
 		</div>
 	</div><hr />
 	</section>
