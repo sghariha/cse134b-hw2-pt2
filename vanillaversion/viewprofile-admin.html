@@ -14,13 +14,13 @@
   <nav class="nav-head">
       <ul>
         <li>
-          <a href="stats.html" class="a-stats">STATS</a>
+          <a href="stats-coach.html" class="a-stats">STATS</a>
         </li>
         <li>
-          <a href="scheduleplayer.html" class="a-schedule">SCHEDULE</a>
+          <a href="scheduleadmin.html" class="a-schedule">SCHEDULE</a>
         </li>
         <li>
-          <a href="rosterplayer.html" class ="a-schedule active">ROSTER</a>
+          <a href="rosteradmin.html" class ="a-schedule active">ROSTER</a>
         </li>
       </ul>
     </nav>
@@ -170,8 +170,13 @@
 
   <div>
     <p align="center">
-        <input type="submit" name="sign up" value="VIEW STATS BY GAME" id="loginbtn">
-        <h3 align="center"><a href="rosterplayer.html">back to full roster</a></h3>
+        <input id="loginbtn" type="button" value="VIEW STATS BY GAME" onclick="return btntest_onclick()"/>
+        <script language="javascript" type="text/javascript">
+        function btntest_onclick() {       
+            window.location.href = "profile-stats-by-game.html";
+        }
+        </script>
+        <h3 align="center"><a href="rosteradmin.html">back to full roster</a></h3>
     </p>
   </div>
 </div>

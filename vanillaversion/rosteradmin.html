@@ -9,10 +9,10 @@
 	<nav class="nav-head">
       <ul>
         <li>
-          <a href="stats.html" class="a-stats">STATS</a>
+          <a href="stats-coach.html" class="a-stats">STATS</a>
         </li>
         <li>
-          <a href="scheduleplayer.html" class="a-schedule">SCHEDULE</a>
+          <a href="scheduleadmin.html" class="a-schedule">SCHEDULE</a>
         </li>
         <li>
           <a href="rosteradmin.html" class ="a-roster active">ROSTER</a>
@@ -21,11 +21,13 @@
     </nav>
     <section class="roster-content">
     <div class="management">
-    <input type="submit" id="modplayer" value="Add Player">
+    <form action="viewprofile-admin-edit-player-stats.html">
+    	<input type="submit" id="modplayer" value="Add Player">
+	</form>
 	</div>
 	<div class="player">
 		<div class="left">
-		<h2><a href="profileplayer.html">Raymond Arevalo</a></h2>
+		<h2><a href="viewprofile-admin.html">Raymond Arevalo</a></h2>
 		</div>
 		<div class="right">
 			<h3 class="rosterrow">Forward</h3>
@@ -35,13 +37,18 @@
 			</div>
 		</div>
 		<div class="management">
-		<input type="submit" id="modplayer" value="Edit">
-		<input type="submit" id="modplayer" value="Remove">
+			<input id="modplayer" type="button" value="Edit" onclick="return btntest_onclick()"/>
+        		<script language="javascript" type="text/javascript">
+        			function btntest_onclick() {       
+            			window.location.href = "viewprofile-admin-edit-player-stats.html";
+        			}
+        		</script>
+			<input type="submit" id="modplayer" value="Remove">
 		</div>
 	</div><hr />
 	<div class="player">
 		<div class="left">
-		<h2><a href="profileplayer.html">Abena Bonsu<a/></h2>
+		<h2><a href="viewprofile-admin.html">Abena Bonsu<a/></h2>
 		</div>
 		<div class="right">
 			<h3 class="rosterrow">Striker</h3>
@@ -51,13 +58,18 @@
 			</div>
 		</div>
 		<div class="management">
-		<input type="submit" id="modplayer" value="Edit">
-		<input type="submit" id="modplayer" value="Remove">
+			<input id="modplayer" type="button" value="Edit" onclick="return btntest_onclick()"/>
+        		<script language="javascript" type="text/javascript">
+        			function btntest_onclick() {       
+            			window.location.href = "viewprofile-admin-edit-player-stats.html";
+        			}
+        		</script>
+			<input type="submit" id="modplayer" value="Remove">
 		</div>
 	</div><hr />
 	<div class="player">
 		<div class="left">
-		<h2><a href="profileplayer.html">Shreeman Hariharan</a></h2>
+		<h2><a href="viewprofile-admin.html">Shreeman Hariharan</a></h2>
 		</div>
 		<div class="right">
 			<h3 class="rosterrow">Midfielder</h3>
@@ -67,13 +79,18 @@
 			</div>
 		</div>
 		<div class="management">
-		<input type="submit" id="modplayer" value="Edit">
-		<input type="submit" id="modplayer" value="Remove">
+			<input id="modplayer" type="button" value="Edit" onclick="return btntest_onclick()"/>
+        		<script language="javascript" type="text/javascript">
+        			function btntest_onclick() {       
+            			window.location.href = "viewprofile-admin-edit-player-stats.html";
+        			}
+        		</script>
+			<input type="submit" id="modplayer" value="Remove">
 		</div>
 	</div><hr />
 	<div class="player">
 		<div class="left">
-		<h2><a href="profileplayer.html">Aaron Lopez</a></h2>
+		<h2><a href="viewprofile-admin.html">Aaron Lopez</a></h2>
 		</div>
 		<div class="right">
 			<h3 class="rosterrow">Goalkeeper</h3>
@@ -83,8 +100,13 @@
 			</div>
 		</div>
 		<div class="management">
-		<input type="submit" id="modplayer" value="Edit">
-		<input type="submit" id="modplayer" value="Remove">
+			<input id="modplayer" type="button" value="Edit" onclick="return btntest_onclick()"/>
+        		<script language="javascript" type="text/javascript">
+        			function btntest_onclick() {       
+            			window.location.href = "viewprofile-admin-edit-player-stats.html";
+        			}
+        		</script>
+			<input type="submit" id="modplayer" value="Remove">
 		</div>
 	</div><hr />
 	</section>
