@@ -3,15 +3,23 @@ body {
 	max-height: 100%
 }
 
-#loginform {
-	display: block;
-	text-align: center
+form {
+
+	font-size: 1em;
 }
 
+#loginform {
+	display: block;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+/* breakpoint */
 @media only screen and (max-width: 700px) {
 	::-webkit-input-placeholder {
    		text-align: center;
-   		font-size: 1.5em
+
 	}
 
 	#homeimage {
@@ -25,13 +33,11 @@ body {
 	}
 
 	.accountform {
-		border-radius: 30px; 
-		-moz-border-radius: 30px; 
-		-webkit-border-radius: 30px;
-		border: 2px solid #B5B8BB;
-		margin-bottom: 2em;
-		width: 22em;
-		height: 3em
+		padding: 5px 10px;
+		border-radius: 1.2em;
+		border: 1px solid #B5B8BB;
+		margin-bottom: 2vw;
+		width: 80%;
 	}
 
 	#rememberlabel {
@@ -60,15 +66,11 @@ body {
 	}
 
 	#loginbtn {
-		width: 8em;
-		height: 2em;
-		border-radius: 34px; 
-		-moz-border-radius: 34px; 
-		-webkit-border-radius: 34px;
-		border: 2px solid #FFC80A;
+		padding: 5px 10px 5px 10px;
+		border-radius: 1.2em;
+		border: 0;
+		appearance: none;
 		background-color: #FFC80A;
-		font-size: 1em;
-		text-transform: uppercase;
 	}
 
 	a {
@@ -77,10 +79,13 @@ body {
 	}
 }
 
+
+
+/* breakpoint */
 @media only screen and (min-width: 700px) {
 	::-webkit-input-placeholder {
    		text-align: center;
-   		font-size: 1.5em
+
 	}
 	#homeimage {
 		height: 10em;
@@ -89,17 +94,16 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 5em;
-		margin-bottom: 5em
+		margin-bottom: 5em;
 	}
 
 	.accountform {
-		border-radius: 34px; 
-		-moz-border-radius: 34px; 
-		-webkit-border-radius: 34px;
-		border: 2px solid #B5B8BB;
+		padding: 5px 10px;
+		border-radius: 1.2em;
+		border: 1px solid #B5B8BB;
 		margin-bottom: 2vw;
-		width: 30em;
-		height: 3em
+
+		width: 30%;
 	}
 
 	#rememberlabel {
@@ -109,32 +113,26 @@ body {
 	#tbl {
 		display: table;
 		width: 35%;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 0 auto;
 	}
 
 	#tblrow {
 		display: table-row;
 	}
 
-	#tblcol-1 {
+	#tblcol-1, #tblcol-2 {
 		display: table-cell
 	}
 
-	#tblcol-2 {
-		display: table-cell
-	}
 
 	#loginbtn {
-		width: 5em;
-		height: 3em;
-		border-radius: 34px; 
-		-moz-border-radius: 34px; 
-		-webkit-border-radius: 34px;
-		border: 2px solid #FFC80A;
+		padding: 5px 10px 5px 10px;
+		border-radius: 1.2em;
+		border: 0;
+		appearance: none;
 		background-color: #FFC80A;
-		font-size: 1em;
-		text-transform: uppercase;
+		margin-bottom: 50px;
+
 	}
 
 	a {

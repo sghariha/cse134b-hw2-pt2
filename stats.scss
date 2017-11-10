@@ -141,3 +141,68 @@ $main-font: 'Raleway', sans-serif;
     }
   }
 }
+
+.signup-content {
+  width: 75%;
+  margin: 100px auto;
+  position: relative;
+
+  .slider {
+    border: 1px solid $p-color;
+    border-radius: 1.2em;
+    width: 40%;
+    margin: 20px 0;
+    ul {
+      margin:0;
+      padding: 0;
+      display: table;
+      width: 100%;
+
+      li {
+        display: table-cell;
+        a {
+          padding: .7em 0 .7em 0;
+          display: block;
+          text-align: center;
+          text-decoration: none;
+          color: $n-color;
+          font-size: 0.67em;
+          font-family: $button-font;
+          font-weight: 700;
+        }
+        .active {
+          background-color: $p-color;
+          border-radius: 1.2em;
+          color: $a-color;
+        }
+      }
+    }
+  }
+
+  form {
+    label {
+      input {
+        width: 100%;
+        margin: .5em 0;
+        font-size: .83em;
+        padding: 10px 10px;
+      }
+    }
+    .submit {
+      margin: 0 auto;
+      text-align: center;
+      width: 50%;
+      input {
+        padding: 1px 5px 1px 5px;
+        margin-top: 1.5em;
+        background-color: $p-color;
+        appearance: none;
+        border: 0;
+        font-size: 0.67em;
+        border-radius: 1.2em;
+        font-weight: 700;
+      }
+
+    }
+  }
+}
