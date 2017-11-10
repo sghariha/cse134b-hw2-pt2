@@ -1,0 +1,47 @@
+.back {
+  display: block;
+  margin-top: 100px !important;
+  margin-bottom: 70px !important;
+}
+
+b {
+  color: #FFC80A !important;
+}
+
+.btn {
+  border-radius: 1.2em !important;
+  background-color: black !important;
+  border: 0 !important;
+}
+
+.btn-group {
+  border-radius: 1.2em !important;
+  background-color: #FFC80A !important;
+  border: 0 !important;
+}
+
+.btn-active {
+  background-color: #FFC80A !important;
+}
+
+form  {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+
+.form-group {
+  margin-bottom: 100px;
+}
+
+img {
+  display: block;
+  margin: 1em 0 3em 0;
+  height: 1.5em;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
