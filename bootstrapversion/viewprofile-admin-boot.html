@@ -16,13 +16,13 @@
 <body>
   <ul class="nav nav-pills nav-fill">
       <li class="nav-item">
-        <a class="nav-link" href="#">STATS</a>
+        <a class="nav-link" href="stats-coach.html">STATS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">SCHEDULE</a>
+        <a class="nav-link" href="scheduleadmin.html">SCHEDULE</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#">ROSTER</a>
+        <a class="nav-link active" href="rosteradmin.html">ROSTER</a>
       </li>
   </ul>
 </body>
@@ -128,8 +128,13 @@
 
   <div>
     <p align="center">
-        <input type="submit" name="sign up" value="VIEW STATS BY GAME" id="loginbtn">
-        <h3 align="center"><a href="rosterplayer.html">back to full roster</a></h3>
+         <input id="loginbtn" type="button" value="VIEW STATS BY GAME" onclick="return btntest_onclick()"/>
+              <script language="javascript" type="text/javascript">
+                function btntest_onclick() {       
+                    window.location.href = "profile-stats-by-game-boot.html";
+                }
+              </script>
+        <h3 align="center"><a href="rosteradmin.html">back to full roster</a></h3>
     </p>
   </div>
 </div>
